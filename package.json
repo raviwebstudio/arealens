@@ -1,0 +1,29 @@
+{
+  "name": "arealens-backend",
+  "version": "1.0.0",
+  "description": "AreaLens AI-Powered Real Estate Calculator - Backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Tests coming in Phase 7\" && exit 0"
+  },
+  "keywords": ["real-estate", "area-calculator", "AI", "India"],
+  "author": "Aaditya Gautam - Crowcent",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.12.0",
+    "razorpay": "^2.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
