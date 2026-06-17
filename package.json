@@ -8,11 +8,17 @@
     "dev": "nodemon index.js",
     "test": "echo \"Tests coming in Phase 7\" && exit 0"
   },
-  "keywords": ["real-estate", "area-calculator", "AI", "India"],
+  "keywords": [
+    "real-estate",
+    "area-calculator",
+    "AI",
+    "India"
+  ],
   "author": "Aaditya Gautam - Crowcent",
   "license": "ISC",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.0",
+    "openai": "^4.12.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
